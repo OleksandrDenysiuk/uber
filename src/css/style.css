@@ -170,7 +170,7 @@ nav {
     margin-top: 35px;
 }
 
-.reasons .reasons_round {
+.reasons .reasons_item .reasons_round {
     display: flex;
     margin-right: 26px;
     justify-content: center;
@@ -181,18 +181,18 @@ nav {
     background-color: #1eacc7;
 }
 
-.reasons .reasons_item_descr {
+.reasons .reasons_item .reasons_item_descr {
     width: 343px;
 }
 
-.reasons .reasons_item_header {
+.reasons .reasons_item .reasons_item_descr .reasons_item_header {
     color: #1eacc7;
     font-size: 17px;
     font-weight: 400;
     line-height: 21px;
 }
 
-.reasons .reasons_item_text {
+.reasons .reasons_item .reasons_item_descr .reasons_item_text {
     color: #202020;
     font-size: 15px;
     font-weight: 300;
