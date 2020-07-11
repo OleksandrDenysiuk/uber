@@ -2,6 +2,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header{
+    position: relative;
+}
+
 nav {
     height: 50px;
     background-color: #212121;
@@ -27,6 +31,8 @@ nav {
 }
 
 .subheader {
+    position: absolute;
+    width: 100%;
     height: 84px;
     background-color: rgba(0, 0, 0, .6)
 }
@@ -77,4 +83,55 @@ nav {
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
+    text-align: center;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 60px;
+}
+
+.promo .promo_subheader {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promo_descr {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 68px;
+    text-transform: uppercase;
+    margin-top: 118px;
 }
