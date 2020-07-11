@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     position: relative;
 }
 
@@ -134,4 +134,68 @@ nav {
     line-height: 68px;
     text-transform: uppercase;
     margin-top: 118px;
+}
+
+.reasons {
+    padding: 71px 0 65px 0;
+}
+
+.reasons .reasons_btn {
+    display: block;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+}
+
+.reasons .reasons_header {
+    margin: 0;
+    margin-top: 38px;
+    text-align: center;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.reasons .reasons_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons .reasons_round {
+    display: flex;
+    margin-right: 26px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+}
+
+.reasons .reasons_item_descr {
+    width: 343px;
+}
+
+.reasons .reasons_item_header {
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.reasons .reasons_item_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: justify;
 }
