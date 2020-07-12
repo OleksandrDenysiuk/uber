@@ -1,4 +1,5 @@
 $main-color: #1eacc7
+$second-color: #ff5656
 	
 =btn_hover
 	&:hover
@@ -156,7 +157,6 @@ nav
 	justify-content: center
 	align-items: center
 	margin-top: 35px
-
 	.reasons_round
 		display: flex
 		margin-right: 26px
@@ -166,16 +166,13 @@ nav
 		width: 113px
 		height: 113px
 		background-color: #1eacc7
-
 	.reasons_item_descr
 		width: 343px
-
 	.reasons_item_header
 		color: #1eacc7
 		font-size: 17px
 		font-weight: 400
 		line-height: 21px
-
 	.reasons_item_text
 		color: #202020
 		font-size: 15px
@@ -228,6 +225,26 @@ nav
 			margin: 0 auto
 			border-radius: 100%
 			cursor: pointer
+			&:before
+				content: ''
+				display: block
+				width: 14px
+				height: 2px
+				background-color: $main-color
+				transition: 0.3s all
+			&:after
+				content: ''
+				display: block
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				height: 14px
+				width: 2px
+				background-color: $main-color
+				transition: 0.3s all
+			&:hover
+				&:before, &:after
+					background-color: $second-color 
 
 .white_title
 	color: #ffffff
@@ -274,8 +291,45 @@ nav
 		width: 297px
 		text-align: center
 	
-
-			
+.requires
+	padding: 68px 0 84px 0
+	&_block
+		margin: 33px 0
+		&_nmb
+			margin-bottom: 0px
+	&_title
+		color: #1ca8c3
+		font-size: 22px
+		font-weight: 400
+	&_list
+		list-style-type: none
+		padding-left: 50px
+		margin-top: 22px
+		li
+			position: relative
+			font-size: 17px
+			font-weight: 300
+			line-height: 24px
+			margin-bottom: 10px
+			&:before
+				content: ''
+				display: block
+				position: absolute
+				left: -32px
+				top: 3px
+				width: 21px
+				height: 20px	
+				background: url('../icons/check_blue.png') center (center / cover) no-repeat
+	&_descr
+		color: #1ca8c3
+		font-weight: 300
+	.warning
+		.requires_title
+			color: $second-color
+		.requires_list
+			li
+				&:before
+					background: url('../icons/check_red.png') center (center / cover) no-repeat	
 			
 			
 		
